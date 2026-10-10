@@ -7,7 +7,7 @@ LOG_DIR.mkdir(parents=True, exist_ok=True)
 
 _FORMATTER = logging.Formatter(
     "%(asctime)s | %(levelname)s | %(name)s | %(message)s",
-    datefmt="%Y-%m-%d | %H:%M:%S",
+    datefmt="%Y-%m-%d %H:%M:%S",
 )
 
 
